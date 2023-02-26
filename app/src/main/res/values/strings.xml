@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lab_1</string>
+
+
+
+    <string name="MainText"> Välkommen till min lilla app om finnans,
+        Här kommer du få tillgång till en länk som tar dig till en offentlig "Googlesheet" där jag har
+        alla företag som man ska hålla koll på de närmaste åren med teknisk graf för att kunna se ifall
+        industrier påvärkas..!</string>
+
+    <string name="textView_about1">“You only have to do a few things right in your life so long as you don’t do too many things wrong.” – Warren Buffett</string>
+
+    <string name="textView_about2">“I owe my success to having listened respectfully to the very best advice, and then going away and doing the exact opposite.” – G.K. Chesterton</string>
+
+    <string name="textView_about3">“The way to get started is to quit talking and begin doing.” – Walt Disney</string>
+
+    <string name="textView_about4">“Whether you think you can or whether you think you can’t, you’re right!” – Henry Ford</string>
+
+    <string name="textView_about5">“A good businessman is a realist how buys from an pessimist and sells to an optimist!” – Carl- H.J </string>
+</resources>
