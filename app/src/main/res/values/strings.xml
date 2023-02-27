@@ -17,4 +17,8 @@
     <string name="textView_about4">“Whether you think you can or whether you think you can’t, you’re right!” – Henry Ford</string>
 
     <string name="textView_about5">“A good businessman is a realist how buys from an pessimist and sells to an optimist!” – Carl- H.J </string>
+    <string name="email">email</string>
+    <string name="required" />
+    <string name="password" />
+    <string name="needed">required</string>
 </resources>

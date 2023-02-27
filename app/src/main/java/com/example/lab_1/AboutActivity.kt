@@ -9,9 +9,12 @@ class AboutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
-
+// Go to Sign in
         val btnNavigateToSignIn = findViewById<Button>(R.id.btn_NavigateToSignIn)
         val intentNavigateToSignIn = Intent(this, SignInActivity::class.java )
+// logg in acount
+        val btnNavigateToLogginPage = findViewById<Button>(R.id.Logg_in_btn_in_about)
+        val intentNavigateToLoggInPage = Intent(this, LoggedInActivity::class.java )
 
         // Go back Button
         val btnGoBack = findViewById<Button>(R.id.btn_GoBack)
@@ -33,6 +36,12 @@ class AboutActivity : AppCompatActivity() {
             startActivity(intentbtnGoBack)
         }
 
+
+        btnNavigateToLogginPage.setOnClickListener{
+
+
+            startActivity(intentNavigateToLoggInPage)
+        }
 
 
 
