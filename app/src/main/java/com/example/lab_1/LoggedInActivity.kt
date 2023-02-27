@@ -2,6 +2,7 @@ package com.example.lab_1
 
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -22,13 +23,14 @@ class LoggedInActivity : AppCompatActivity() {
         val navigateToHome = findViewById<Button>(R.id.Home_btn)
         val intentNavigateToHome = Intent(this, MainActivity::class.java )
 
+        //URL button
+        val urlButton = findViewById<Button>(R.id.Url_btn)
 
 
-
-
+        //display logg ins
         val tvDisplay = findViewById<TextView>(R.id.tv_display)
 
-        val sharePreferences = getSharedPreferences("MY_PRE", Context.MODE_PRIVATE)
+        val sharePreferences = getSharedPreferences("MY_PRE", MODE_PRIVATE)
 
         val email = sharePreferences.getString("EMAIL","").toString()
         val password = sharePreferences.getString("PASSWORD","")
@@ -37,18 +39,19 @@ class LoggedInActivity : AppCompatActivity() {
 
 
         changePorE.setOnClickListener{
-
-
             startActivity(intentChangePorE)
         }
 
         navigateToHome.setOnClickListener{
-
-
             startActivity(intentNavigateToHome)
         }
 
+        urlButton.setOnClickListener{
+            val openURL = Intent(Intent.ACTION_VIEW)
+            openURL.data = Uri.parse("https://github.com/hugojohansson1021/STI_AndroidUTV_Lab1/blob/main/README.md")
+            startActivity(openURL)
 
+        }
 
 
 
