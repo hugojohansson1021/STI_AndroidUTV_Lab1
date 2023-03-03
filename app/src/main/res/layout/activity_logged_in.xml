@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reset Email or Password"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,24 +37,24 @@
         android:id="@+id/Home_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home"
         android:background="@drawable/roundstyle1"
-
-        android:textColor="@color/black"
         android:backgroundTint="@color/teal_200"
+
+        android:text="Home"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.896" />
+        app:layout_constraintVertical_bias="0.877" />
 
     <Button
         android:id="@+id/Url_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ditt Google sheet"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:backgroundTint="@color/teal_200"
         android:background="@drawable/roundstyle1"
         app:layout_constraintBottom_toBottomOf="parent"
